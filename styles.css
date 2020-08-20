@@ -20,6 +20,9 @@ table,th,td,caption{
 
 caption,tbody tr>th{
     background-color:#d3d3d3; /*--gris--*/
+    font-weight: normal;
+
+    
 }
 
 caption{
