@@ -4,60 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="js.js"></script>
     <title>tableau HTML et css</title>
 </head>
 <body>
 
     
-    <table class="tableau">
-        <tr >
+    <table >
 
-        <th colspan=6 class="titre"> Planning par semaine </th>
-        
-    </tr>   
+        <caption> Planning par semaine  </caption>
+
+        <thead >
+            
+        <tr >
+            
+            <th scope="col">Semaine</th>
+            <th scope="col">Lundi</th>
+            <th scope="col">Mardi</th>
+            <th scope="col">Mercredi</th>
+            <th scope="col">Jeudi</th>
+            <th scope="col">vendredi</th>
+        </tr>
+         
+        </thead>   
 
     <tbody>
-        <tr class="Semaine">
-            
-            <td>Semaine</td>
-            <td>Lundi</td>
-            <td>Mardi</td>
-            <td>Mercredi</td>
-            <td>Jeudi</td>
-            <td>vendredi</td>
-        </tr>
-        <tr class="S36">
-            <td class="dem">S36</td>
+       
+        <tr  >
+            <th scope="row">S36</th>
             <td colspan=5>Nico</td>
         </tr>
-        <tr class="S37">
-             <td class="dem">S37</td>
+        <tr>
+             <th scope="row">S37</th>
                 <td colspan=2>Nico</td>
                 <td colspan=3>Renaud</td>
         </tr>
-        <tr class="S38">
-            <td class="dem">S38</td>
+        <tr >
+            <th scope="row">S38</th>
                 <td colspan=2>Nico</td>
                 <td colspan=1>Renaud</td>
                 <td colspan=2>Nico</td>
         </tr>
-        <tr class="S39">
-            <td class="dem">S39</td>
+        <tr>
+            <th scope="row">S39</th>
             <td colspan=1>Renaud</td>
             <td colspan=2>Nico</td>
             <td colspan=2>Renaud</td>
         </tr>
-        <tr class="S40">
-            <td class="dem">S40</td>
+        <tr>
+            <th scope="row">S40</th>
             <td colspan=1>Nico</td>
             <td colspan=2>Renaud</td>
             <td colspan=2>Nico</td>
         </tr>
     </tbody>
     <tfoot >
-         <td colspan=6>Susceptible d'évoluer</td>
+        <tr>
+         <td class= contentF colspan=6>Susceptible d'évoluer</td>
+        </tr>
     </tfoot>   
 
     </table>
 </body>
+
+
 </html>

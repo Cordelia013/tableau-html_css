@@ -3,52 +3,40 @@
     padding:0;
 }
 
+/*parametre general du tableau*/
 
-.tableau{
+table,th,td,caption{
  
-    background-color: #d3d3d3;
+    
     border-collapse: collapse;
     table-layout: fixed;
     width:auto;
     text-align: center;
     border: 1px solid;
     padding:10px;
-    margin: 5px;
-}
-.titre{
-  padding: 5px;
-}
-.Semaine{
-    font-weight:bold;
-}
-.Semaine, tfoot, th{
-    background-color: white;
-}
-
-tr,td{
+  
    
-    overflow: auto;
-    border: 1px solid;
-    padding:5px;
 }
 
-th{
-    background-color: #d3d3d3;
-    text-align:center;
-}
-.S37, .S39{
-    background-color: #6cf08f;
+caption,tbody tr>th{
+    background-color:#d3d3d3; /*--gris--*/
 }
 
-.S36,.S38, .S40{
-    background-color: #a1d9e6;
+caption{
+    font-weight: bold;
 }
-.dem{
-    background-color: #d3d3d3;
+
+
+tbody tr{
+    background-color: #6cf08f; /*--vert--*/
+}
+
+tbody tr:nth-child(odd){
+    background-color: #a1d9e6; /*--bleu--*/
+  
 }
 
 tfoot{
-    font-style: italic;
     font-weight: lighter;
+    font-style: italic;
 }
-
